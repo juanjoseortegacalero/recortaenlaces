@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 import {Routes, Route} from 'react-router-dom';
 import Navbar from '../src/components/Navbar.jsx';
 import Register from '../src/pages/Register.jsx'
