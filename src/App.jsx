@@ -12,7 +12,7 @@ import Cortador from './pages/Cortador.jsx';
 import Lista from './pages/Lista.jsx';
 import Redirect from './pages/shortId.jsx';
 
-axios.defaults.baseURL = 'https://recortaenlaces.onrender.com'; // CLIENTE https://recortaenlaces.onrender.com
+axios.defaults.baseURL = 'https://recortaenlaces-api.onrender.com'; // CLIENTE https://recortaenlaces.onrender.com
 axios.defaults.withCredentials = true
 
 
