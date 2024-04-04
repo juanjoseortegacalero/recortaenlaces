@@ -31,6 +31,7 @@ function App() {
     </Routes>
       <Lista></Lista>
     </UserContextProvider>
+    <footer className="footer">Made by <a href="https://jjportfolio-juanjoseortegacalero.vercel.app/" target="_blank">Juan José Ortega Calero</a>. Copyright 2024©</footer>
     </div> 
   )
 }
