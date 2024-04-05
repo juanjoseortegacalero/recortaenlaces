@@ -12,7 +12,7 @@ import Cortador from './pages/Cortador.jsx';
 import Lista from './pages/Lista.jsx';
 import Redirect from './pages/shortId.jsx';
 
-axios.defaults.baseURL = BACKEND_URL;
+axios.defaults.baseURL = process.env.BACKEND_URL;
 axios.defaults.withCredentials = true
 
 
