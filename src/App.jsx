@@ -1,10 +1,10 @@
+import axios from 'axios';
 import './App.css'
 import './index.css'
 import {Routes, Route} from 'react-router-dom';
 import Navbar from '../src/components/Navbar.jsx';
 import Register from '../src/pages/Register.jsx'
 import Login from '../src/pages/Login.jsx'
-import axios from 'axios';
 import { Toaster } from 'react-hot-toast'
 import { UserContextProvider } from '../content/userContext.jsx';
 import Dashboard from './pages/Dashboard.jsx';
