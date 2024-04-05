@@ -12,8 +12,8 @@ import Cortador from './pages/Cortador.jsx';
 import Lista from './pages/Lista.jsx';
 import Redirect from './pages/shortId.jsx';
 
-axios.defaults.baseURL = BACKEND_URL;
-axios.defaults.withCredentials = true
+axios.defaults.baseURL = 'https://recortaenlaces-api.onrender.com';
+axios.defaults.withCredentials = true;
 
 
 function App() {
