@@ -10,7 +10,7 @@ const NotFound = () => {
 
 const Redirect= () => {
   var { id } = useParams();
-  var api = `${id}`;
+  var api = `https://recortaenlaces.onrender.com/${id}`;
 
   const [state, setState] = useState({
     'found': true
