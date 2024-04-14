@@ -40,14 +40,39 @@ export default function Lista(){
                             </tr>
                         </thead>
                         <tbody>
-        <% shortUrls.forEach(shortUrl => { %>
-          <tr>
-            <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
-            <td><a href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
-            <td><%= shortUrl.clicks %></td>
-          </tr>
-        <% }) %>
-      </tbody>
+                            { last.map ( (url, index) => (
+                                <tr key={ index }>
+                                   <td><a href={ url.full }>{ url.full }</a></td>
+                                   <td><a href={ url.short }>{ url.short }</a></td>
+                                    <td> { url.clicks } </td>
+                                </tr>
+                            )) }
+                        </tbody>
+                    </table>
+                </div>    
+            </div>
+        </div>
+        <div>
+            <h3>URLs más visitadas</h3>
+            <div className='row'>
+                <div className='col'>
+                    <table className='table'>
+                        <thead className='tableTheadBg'>
+                            <tr>
+                                <th>URL Completo</th>
+                                <th>URL Acortado</th>
+                                <th>Visitas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            { urls.map ( (url, index) => (
+                                <tr key={ index }>
+                                   <td><a href={ url.full }>{ url.full }</a></td>
+                                   <td><a href={ url.short }>{ url.short }</a></td>
+                                    <td> { url.clicks } </td>
+                                </tr>
+                            )) }
+                        </tbody>
                     </table>
                 </div>    
             </div>
