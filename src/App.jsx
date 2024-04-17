@@ -12,7 +12,7 @@ import Cortador from './pages/Cortador.jsx';
 import Lista from './pages/Lista.jsx';
 import Redirect from './pages/shortId.jsx';
 
-axios.defaults.baseURL = 'https://recortaenlaces-b4d82e2ca64b.herokuapp.com/';
+axios.defaults.baseURL = 'https://recortaenlaces-b4d82e2ca64b.herokuapp.com';
 axios.defaults.withCredentials = true;
 
 
