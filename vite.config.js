@@ -6,6 +6,6 @@ export default defineConfig({
   server:{
     proxy:{ 
       '/api': 'https://recortaenlaces-api-production.up.railway.app'}
-  }
+  }}
   plugins: [react()]
 })
