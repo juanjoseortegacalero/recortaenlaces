@@ -1,4 +1,5 @@
 import axios from 'axios';
+import './index.css'
 import './App.css'
 import {Routes, Route} from 'react-router-dom';
 import Navbar from '../src/components/Navbar.jsx';
