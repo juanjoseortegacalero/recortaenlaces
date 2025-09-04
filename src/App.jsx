@@ -12,7 +12,7 @@ import Cortador from './pages/Cortador.jsx';
 import Lista from './pages/Lista.jsx';
 import Redirect from './pages/shortId.jsx';
 
-axios.defaults.baseURL = 'https://recortarenlaces-server.vercel.app/';
+axios.defaults.baseURL = 'https://recortaenlaces-api.onrender.com/';
 axios.defaults.withCredentials = true;
 
 
