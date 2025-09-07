@@ -32,7 +32,7 @@ function App() {
     </Routes>
       <Lista></Lista>
     </UserContextProvider>
-    <footer className="footer">Made by <a href="https://jjportfolio.onrender.com/" target="_blank">Juan José Ortega Calero</a>. Copyright 2024©</footer>
+    <footer className="footer">Made by <a href="https://jjportfolio.onrender.com/" target="_blank">Juan José Ortega Calero</a>. Copyright 2025©</footer>
     </div> 
   )
 }
